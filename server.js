@@ -98,5 +98,5 @@ function startNumberLoop(roomId) {
 
 const PORT = process.env.PORT || 2000;
 server.listen(PORT, () => {
-  console.log("Bingo Pro running on", `http://t.me/melkamu1236_bot:${PORT}`);
+  console.log("Bingo Pro running on", `http://localhost:${PORT}`);
 });
